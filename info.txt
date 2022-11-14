@@ -1,0 +1,7 @@
+"type": "module",
+------
+"scripts": {
+    "start:dev": "nodemon index.js",
+},
+npm run start:dev
+------
