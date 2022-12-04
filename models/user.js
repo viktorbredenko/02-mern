@@ -1,5 +1,5 @@
 import mongoose, { Mongoose } from 'mongoose';
-import { stringify } from 'nodemon/lib/utils';
+//import { stringify } from 'nodemon/lib/utils.js';
 
 const UserSchema = new mongoose.Schema(
     {

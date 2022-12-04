@@ -5,3 +5,4 @@
 },
 npm run start:dev
 ------
+npm install bcrypt
