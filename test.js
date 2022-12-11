@@ -1,4 +1,4 @@
-debugger.users.insert({
-    name: "Viktor",
-    age: 37,
-})
+// debugger.users.insert({
+//     name: "Viktor",
+//     age: 37,
+// })

@@ -5,11 +5,11 @@ import { registerValidation } from './validations/auth.js';
 import checkAuth from './utils/checkAuth.js';
 import * as UserController from './controllers/UserController.js'
 
-//-------------------------------
+//------------------------------------------------------
 mongoose.connect('mongodb+srv://user:88888888@cluster0.6dzjpsq.mongodb.net/blog?retryWrites=true&w=majority')
     .then(() => console.log('DB OK'))
     .catch((err) => console.log('DB error', err))
-//------------------------------- 
+//------------------------------- ------------------
 const app = express()
 app.use(express.json())
 
